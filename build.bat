@@ -1,1 +1,0 @@
-ldmd2 ./source/app.d ./source/ray.d ./source/color.d ./source/vec3.d ./source/hit.d ./source/sphere.d ./source/hit_list.d ./source/interval.d ./source/thecamera.d
