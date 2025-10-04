@@ -1,0 +1,19 @@
+{
+  "authors": ["rbdhh"],
+  "copyright": "Copyright © 2025, rbdhh",
+  "description": "A demo ray tracing D program.",
+  "license": "MIT",
+  "name": "raytrace",
+  "targetType": "executable",
+  "configurations": [
+    {
+      "name": "release",
+      "targetType": "executable",
+      "buildOptions": ["releaseMode", "optimize", "inline", "noBoundsCheck"],
+      "dflags": ["-boundscheck=off", "-mcpu=native"],
+      "libs": [],
+      "sourcePaths": ["source"],
+      "importPaths": ["source"]
+    }
+  ]
+}
